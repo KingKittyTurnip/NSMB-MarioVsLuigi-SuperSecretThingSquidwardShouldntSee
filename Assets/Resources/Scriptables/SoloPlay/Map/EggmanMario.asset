@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: EggmanMario
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: 'Was that Dr Eggman? '
+    speaker: 0
+    speakerImage: {fileID: 1642102662, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1395420228, guid: a7245cae141f3ee449147539ebd2a2c9,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: 'I remember competing in the Olympic Games with that guy, he''s good
+      at fencing but a lousy swimmer. '
+    speaker: 0
+    speakerImage: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: So what was he doing here?
+    speaker: 0
+    speakerImage: {fileID: -1868981158, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: So you're the protagonist around here?
+    speaker: 1
+    speakerImage: {fileID: 990936703, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: WHO THE FUCK ARE YOU?
+    speaker: 0
+    speakerImage: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: 'From the looks of it, I''m you. '
+    speaker: 1
+    speakerImage: {fileID: -2107208474, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: 'Simply put, I''m not from around here. And neither was he. '
+    speaker: 1
+    speakerImage: {fileID: 990936703, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: Hmm, let me guess. Multiverse shenanigans?
+    speaker: 0
+    speakerImage: {fileID: -1214180834, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: Yep
+    speaker: 1
+    speakerImage: {fileID: -1096992698, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 139125054, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: 'Look, I''m not supposed to be here. '
+    speaker: 1
+    speakerImage: {fileID: 990936703, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1642102662, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: 'Me and my brother got separated as soon as we got here, and I''m trying
+      to find him. '
+    speaker: 1
+    speakerImage: {fileID: 990936703, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: 'He''s kinda an idiot, and I don''t want him to get hurt. '
+    speaker: 1
+    speakerImage: {fileID: 366821378, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: 'I know the feeling. '
+    speaker: 0
+    speakerImage: {fileID: -1214180834, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: 'I''m sure we''ll find him. '
+    speaker: 0
+    speakerImage: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Urio
+    speakerColor: {r: 0, g: 1, b: 1, a: 1}
+    dialogue: Thanks
+    speaker: 1
+    speakerImage: {fileID: -2107208474, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0

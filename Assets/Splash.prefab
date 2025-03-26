@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4364979000417035748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3953142818599729524}
+  - component: {fileID: 6121017460298341098}
+  - component: {fileID: 8294315520228513997}
+  - component: {fileID: 3231550675281006314}
+  m_Layer: 5
+  m_Name: Splash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3953142818599729524
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4364979000417035748}
+  m_LocalRotation: {x: 0, y: 0, z: 0.19080894, w: 0.9816273}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 88.8, y: -77.3}
+  m_SizeDelta: {x: 1083.01, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6121017460298341098
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4364979000417035748}
+  m_CullTransparentMesh: 1
+--- !u!114 &8294315520228513997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4364979000417035748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'What about playing the og game '
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d42c556520644b148ada62f0b573e1a5, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 5ade88ee859873b4882004e755013bf7, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278255615
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3231550675281006314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4364979000417035748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbe085855f4a114eb25b5963811d6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splashes:
+  - 'What about playing the og game '
+  - Mario team or Luigi team?
+  - Might be a funny game.
+  - Might be hell.
+  - Make it a toggle!
+  - Nice ping.
+  - Get stomped by air!
+  - Mega incoming!
+  - no gameplay toggles
+  - already rejected
+  - "it\u2019s not soda, so stop jumping into it"
+  - "it\u2019s soda, jump into it"
+  - Did ya bring a light?
+  - "It\u2019s-a PERFECT!"
+  - BAH! BAH!
+  - "That\u2019s Mama Luigi to you, Mario!"
+  - Where am I?
+  - All toasters toast toast!
+  - "I hope she made lots\u2019a spaghetti!"
+  - Made by ipodtouch0218
+  - Mod by HyperC@T
+  - "Let\u2019s-a GO!"
+  - WAHOO! ! !
+  - Peaches, Peaches! Peaches, Peaches, Peaches!
+  - "Also try Cubby\u2019s Character Mod!"
+  - Also try HyperCat's Map Mod!
+  - Also try Steve's Map Pack!
+  - Also try Vic's Match-Inator!
+  - Also try Toasted!
+  - Also try Doodler's Mayhem! (when it releases)
+  - Also try Vincells Battlefield Mod!
+  - Also try HyperCat's Movie Maker!
+  - Also try MiiBumm's Mega Item Mod! (when it releases)
+  - Hello Mario. I'm Luigi.
+  - "It\u2019s a stone, Luigi. You didn\u2019t make it."
+  - Mamma mia!
+  - Remember the Year of Luigi?
+  - Welcome to the New Mushroom Kingdom!
+  - Can be played on a microwave!
+  - Do you yield?
+  - You mean i wasted my tomato sauce?
+  - The Thousand Year Ping!
+  - "Where\u2019s \u201CIn the Final\u201D when you need it?"
+  - "Where\u2019s \u201CThe Grand Finale\u201D when you need it?"
+  - Zero Items, Final Destin. . .oh wait. Wrong game.
+  - "The Mario Bros don\u2019t drain your bank account."
+  - "Now you\u2019re playing with power!"
+  - Now with more toggles!
+  - Mushroom Kingdom, here we come!
+  - Adding Sonic and/or Blaze from Sonic Rush Would add a bit of variety and uniqueness
+    to the game and it would also be really cool if there was a toggleable option
+    (host side) that enabled Sonic Rush Physics (players as sonic) with spindashing
+    and such, as you can tell, I am a huge Sonic Fan and I would love it if you added
+    this, though I'm not entirely sure how powerups would work... mabye fire dash
+    powerup (fire shield but without the shield part) the bubble powerup (the one
+    that let's you breathe lol but without the shield part) and the Invincibilty
+    powerup and also a altered mega mushroom powerup that would make you bigger but
+    not as big as the Mario one, but still quite big. And replacements for the ice
+    flower and such I can't really think of ideas for so if anybody would like to
+    help would be appreciated oh and also in water stages insert troll face here
+    you. can. drown. I am horrible at C# so I have no idea how easy these will be
+    to add but I know it may be mario forever so uhh yeaaaaaaaa............. lmao
+    but uhhhhhhh pog oh and also the invincibility powerup should use silvagunners
+    Sonic invincibility Mario remix (with permission of course) if permission is
+    unobtainable try Sonic 3&K invincibility, here is a link to the Sonic Invincibility
+    Mario thingy remix https://youtu.be/4NWiDUEnCYk and here is a link the Sonic
+    3&K invincibility https://youtu.be/N6YqH9mKjv8 Oh and also forgot to mention
+    that Mario's and Sonic's/Blaze can be in the same world just that Sonic/Blaze's
+    Physics only apply to Sonic/Blaze Also my idea is probally quite unbalanced or
+    something but if not pog, if it is then feel free to suggest ideas and balancing
+    and stuf
+  - '"This gets a solid 8/10" - Mega Mushroom'
+  - Supporting family violence
+  - Why are they fighting again?
+  - Sitting in a Castle Simulator
+  - Trapped with the bomb
+  - The blue nightmare of the Fortress
+  - Time stop when landing on a slope
+  - Small but frightening
+  - Koopas are underrated
+  - "Don\u2019t you have better things to do?"
+  - 'First law : Bricks + 10 players = hell'
+  - No ideas for today
+  - "New Soup\u2026 MMMMMMMMMMMMMMMMMMMMM"
+  - Freezing standoff
+  - 'Second law : Fortress + Lives (OFF) + 10 players + stars >=6 = bad'
+  - 'Second law : Fortress + Lives (OFF) + 10 players + stars >=6 = bad'
+  - i love getting banned
+  - join the Luigi cult
+  - something about the ds in 144p
+  - HEY mario forever, COME HERE AND GIVE ME YOUR LIVER
+  - Both joining and getting banned can happen very quickly
+  - Groundpound canceling is a thing
+  - Did you know you can wallkick?
+  - If you win I ban you
+  - I make the game draw if I die
+  - I need to avoid getting frozen
+  - Touch the screen to start!
+  - L+R+A=Luigi
+  - Yoshi ?
+  - New challenger approaching!
+  - "It\u2019s a-me, a-Mario."
+  - Ice flower staring contest
+  - Welp. No more 99 stars deathmatches.
+  - "I\u2019ve baked a cake for you!"
+  - The cake is a lie!
+  - Now with more characters!
+  - Mario!
+  - Luigi!
+  - Sonic?
+  - Blaze?
+  - Wario!
+  - Waluigi!
+  - Miku?
+  - As seen on TV!
+  - Ingots!
+  - Open source!
+  - Not on steam!
+  - '"Enhanced!"'
+  - '"90% bug free!"'
+  - 12 herbs and spices!
+  - Fat free!
+  - Now in 2D!
+  - Play him off, keyboard cat!
+  - Hot tamale, hot hot tamale!
+  - Music by C418!
+  - Polynomial!
+  - Never dig down!
+  - Han shot first!
+  - sqrt(-1) love you!
+  - Peter Griffin!
+  - 4815162342 lines of code!
+  - 'This parrot is no more! It has ceased to be! '
+  - The luigi is a spy!
+  - Follow the train, CJ!
+  - DungeonQuest is unfair!
+  - 'This message will appear on the splash screen, isn''t that weird? '
+  - 'More addictive than lemonade! '
+  - 'This is my true form! '
+  - 'Feature packed! '
+  - 'Finally complete! '
+  - 'Boots with the fur! '
+  - 'Does barrel rolls! '
+  - "D\xE9j\xE0 vu! "
+  - "D\xE9j\xE0 vu! "
+  - 'Funk soul brother! '
+  - 'Big Pointy Teeth! '
+  - '.party()! '
+  - 'Take her pillow! '
+  - 'Woah. '
+  - 'What''s up, Doc? '
+  - 'pls rt '
+  - 'Now with additional stuff! '
+  - 'Now With Multiplayer! '
+  - 'Rise from your grave! '
+  - 'Warning! A huge battleship "MARIO" is approaching fast! '
+  - 'Run, coward! I hunger! '
+  - Strange, isn't it?
+  - doot, doot
+  - 'AutumnLeaf: i hate laptops'
+  - 'Replaced molten cheese with blood? '
+  - 'Rainbow turtle? '
+  - 'Look mum, I''m in a splash! '
+  - Ping me I dare you.
+  - 'Bushy eyebrows! '
+  - 'Fabulous graphics! '
+  - 'RIBBIT! '
+  - 'This sand is sus '
+  - 'Sniff sniff... '
+  - Placeholder
+  - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  - whyamidoingthisihatemylifeihatethismodihateallofyouwhydoyoumakemedothesethingsihateyouallyoudumbspleaseendmeyoudumbsesplease
+  - Over 150 splashes!
+  - To show you the power of flex tape
+  - I sawed this splash in half!
+  - 2/10
+  - 8/10
+  - 10/10
+  - mods are always great trust me
+  - remember that you made this happen
+  - gex
+  - Element 160
+  - Available until Aug, 12, 2036
+  - Wii Play, Do you?
+  - 'Today is tomorrow, Tomorrow is yesterday, Yesterday is today. '
+  - 'when''s tomorrow? '
+  - Bames Nond's having a stronk.
+  scaleSize: 1
+  scaleSpeed: 500

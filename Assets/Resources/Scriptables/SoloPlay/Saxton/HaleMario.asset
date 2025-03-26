@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: HaleMario
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Saxton Hale!
+    speakerColor: {r: 0.38431376, g: 0.25490198, b: 0.20392159, a: 1}
+    dialogue: The name's Saxton Hale.
+    speaker: 1
+    speakerImage: {fileID: 1469598167, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0
+  - speakerName: Saxton Hale!
+    speakerColor: {r: 0.38431376, g: 0.25490198, b: 0.20392159, a: 1}
+    dialogue: 'Australian. '
+    speaker: 1
+    speakerImage: {fileID: 965888269, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0
+  - speakerName: Saxton Hale!
+    speakerColor: {r: 0.38431376, g: 0.25490198, b: 0.20392159, a: 1}
+    dialogue: Former CEO of Mann Co.
+    speaker: 1
+    speakerImage: {fileID: -1441620007, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0
+  - speakerName: Saxton Hale!
+    speakerColor: {r: 0.38431376, g: 0.25490198, b: 0.20392159, a: 1}
+    dialogue: and the man who is gonna burn this place to the ground!
+    speaker: 1
+    speakerImage: {fileID: 628113853, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0
+  - speakerName: Saxton Hale!
+    speakerColor: {r: 0.38431376, g: 0.25490198, b: 0.20392159, a: 1}
+    dialogue: This is test dialogue lol
+    speaker: 1
+    speakerImage: {fileID: 628113853, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0

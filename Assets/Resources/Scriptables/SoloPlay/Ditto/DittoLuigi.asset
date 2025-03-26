@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: DittoLuigi
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: What? It's-a me!
+    speaker: 0
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: What? It's-a me!
+    speaker: 1
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: Stop copying me!
+    speaker: 0
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: Stop copying me!
+    speaker: 1
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: Your mother doesn't like you, your dad went to go get milk, and your
+      own brother despises you!
+    speaker: 0
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: ...
+    speaker: 1
+    speakerImage: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: You're right...
+    speaker: 1
+    speakerImage: {fileID: -11514741, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: -406172169, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: Enough messing around
+    speaker: 1
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: 'But, since I''m so nice. I''ll make this fight even. '
+    speaker: 1
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: 'If you want to defeat me, you''ll have to get good at your ground
+      pounds. '
+    speaker: 1
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: DevenTest
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Deven
+    speakerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    dialogue: 'Hello. This is a test for Deven''s expressions. '
+    speaker: 0
+    speakerImage: {fileID: 1094772287, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    dialogue: 'Normal
+
+'
+    speaker: 0
+    speakerImage: {fileID: 1094772287, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    dialogue: Confident
+    speaker: 0
+    speakerImage: {fileID: -1310131753, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    dialogue: Celebrate
+    speaker: 0
+    speakerImage: {fileID: 80374976, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    dialogue: Powertrip
+    speaker: 0
+    speakerImage: {fileID: 939693685, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    dialogue: Over (looking up at something all dramatic like)
+    speaker: 0
+    speakerImage: {fileID: -1123077157, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0

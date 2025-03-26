@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cacf99a61e4a9409e87ccfc23cb142, type: 3}
+  m_Name: 1-1
+  m_EditorClassIdentifier: 
+  displayName: 1-1
+  displayOrigin: 'NSMBVS: HyperCat''s Character Mod'
+  sceneIndex: 13
+  endConvo:
+  - {fileID: 11400000, guid: 0c2c897bde5c01444b3d4ef7eb719ada, type: 2}
+  - {fileID: 11400000, guid: 82b2054666b752a4eaf7dfb30ccb3758, type: 2}
+  - {fileID: 11400000, guid: 4f2180dd975d0e04c8687a193e9be1de, type: 2}
+  - {fileID: 11400000, guid: f27282aab13826b409f5e798741b417b, type: 2}

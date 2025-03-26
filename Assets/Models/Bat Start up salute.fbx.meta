@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 7bd87af3c48cbe145aadc97f8b3de4fe
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable:
+  - first:
+      74: -2312511736577536669
+    second: mario_model_mg|mario_model_mg|mario_model_mg|MarioBatSwing2
+  - first:
+      74: -3787357405301432856
+    second: mario_model_mg|mario_model_mg|mario_model_mg|AttackGroundedA
+  - first:
+      74: -4647838219303398677
+    second: mario_model_mg|mario_model_mg|mario_model_mg|bdash_sword
+  - first:
+      74: 8122402096147903139
+    second: mario_model_mg|mario_model_mg|mario_model_mg|GroundedAttackB
+  - first:
+      74: -5161055640272471019
+    second: mario_model_mg|mario_model_mg|mario_model_mg|GroundedAttackC
+  - first:
+      74: -3506980665386144329
+    second: mario_model_mg|mario_model_mg|mario_model_mg|L_run_sword
+  - first:
+      74: 3633760095166693151
+    second: mario_model_mg|mario_model_mg|mario_model_mg|mario_model_mg|FitMiiSwordsmanBod
+  - first:
+      74: 5605509159914376398
+    second: mario_model_mg|mario_model_mg|mario_model_mg|mario_model_mg|MarioBatSwing2
+  - first:
+      74: 7137560929647583129
+    second: mario_model_mg|mario_model_mg|mario_model_mg|run_sword
+  - first:
+      74: 4654226741006035926
+    second: mario_model_mg|mario_model_mg|mario_model_mg|SteveBackair
+  - first:
+      74: 9175681206817441770
+    second: mario_model_mg|mario_model_mg|mario_model_mg|SteveFair
+  - first:
+      74: -2069185765953804345
+    second: mario_model_mg|mario_model_mg|mario_model_mg|SteveNair
+  - first:
+      74: 7738227948316457250
+    second: mario_model_mg|mario_model_mg|mario_model_mg|SteveNairAttempt2
+  - first:
+      74: 4316019917657745483
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMa
+  - first:
+      74: -6208755220099516224
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMa.001
+  - first:
+      74: 6661112026254359100
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMa.002
+  - first:
+      74: 5105871701161214085
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMa.003
+  - first:
+      74: -8162573692540954556
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMa.004
+  - first:
+      74: 926911335280101244
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMa.005
+  - first:
+      74: 2406298652344643188
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMainC0
+  - first:
+      74: -755191201694808214
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|FitMiiSwordsmanBodyMainJ0
+  - first:
+      74: 8030830814577344429
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|MarioBatSwing
+  - first:
+      74: 3989529600180416197
+    second: Mario_skeleton.005|Mario_skeleton.005|Mario_skeleton.005|SteveNair
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

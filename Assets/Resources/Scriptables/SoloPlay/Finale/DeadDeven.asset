@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: DeadDeven
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: You... won?
+    speaker: 1
+    speakerImage: {fileID: 1710877481, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1094772287, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: HOW!?
+    speaker: 1
+    speakerImage: {fileID: -1123077157, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'You don''t belong here. '
+    speaker: 0
+    speakerImage: {fileID: -1310131753, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'You''re from another mod, Mk 1. '
+    speaker: 0
+    speakerImage: {fileID: -1310131753, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: Wait? You're-
+    speaker: 1
+    speakerImage: {fileID: 1710877481, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'Mk 2. '
+    speaker: 0
+    speakerImage: {fileID: 1094772287, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'So this is what obsolete Devens do? Terrorize alternate universes? '
+    speaker: 0
+    speakerImage: {fileID: -1123077157, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: Why are you even here?
+    speaker: 0
+    speakerImage: {fileID: -1310131753, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: I got confused, I thought this was home-
+    speaker: 1
+    speakerImage: {fileID: 1710877481, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'But it isn''t, is it. '
+    speaker: 0
+    speakerImage: {fileID: -1310131753, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'You''re coming with me. '
+    speaker: 0
+    speakerImage: {fileID: 1094772287, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'Like hell I am. '
+    speaker: 1
+    speakerImage: {fileID: 1710877481, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'This place is going to detonate in 60 seconds, so you''d better get
+      going. '
+    speaker: 1
+    speakerImage: {fileID: 1710877481, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Deven
+    speakerColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    dialogue: 'Fine, your loss. '
+    speaker: 0
+    speakerImage: {fileID: -1310131753, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0

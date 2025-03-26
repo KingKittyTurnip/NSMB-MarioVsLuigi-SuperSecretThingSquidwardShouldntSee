@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: StartLuigi
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: 'No flagpole? '
+    speaker: 0
+    speakerImage: {fileID: -1081235559, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1395420228, guid: a7245cae141f3ee449147539ebd2a2c9,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: What's this red pipe?
+    speaker: 0
+    speakerImage: {fileID: -1156336271, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1395420228, guid: a7245cae141f3ee449147539ebd2a2c9,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Luigi
+    speakerColor: {r: 0, g: 1, b: 0, a: 1}
+    dialogue: Adventure!
+    speaker: 0
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1395420228, guid: a7245cae141f3ee449147539ebd2a2c9,
+      type: 3}
+    autoProgress: 0

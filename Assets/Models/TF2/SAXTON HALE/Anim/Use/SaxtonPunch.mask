@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SaxtonPunch
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: saxton_body
+    m_Weight: 0
+  - m_Path: saxton_bodygroup_belt_high
+    m_Weight: 0
+  - m_Path: saxton_bodygroup_belt_low
+    m_Weight: 0
+  - m_Path: saxton_hat_heavy_reference
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_L
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_L/bip_knee_L
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_L/bip_knee_L/bip_foot_L
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_L/bip_knee_L/bip_foot_L/bip_toe_L
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_L/bip_knee_L/bip_foot_L/bip_toe_L/bip_toe_L_end
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_R
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_R/bip_knee_R
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_R/bip_knee_R/bip_foot_R
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_R/bip_knee_R/bip_foot_R/bip_toe_R
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_hip_R/bip_knee_R/bip_foot_R/bip_toe_R/bip_toe_R_end
+    m_Weight: 0
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_index_0_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_index_0_L/bip_index_1_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_index_0_L/bip_index_1_L/bip_index_2_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_index_0_L/bip_index_1_L/bip_index_2_L/bip_index_2_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_middle_0_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_middle_0_L/bip_middle_1_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_middle_0_L/bip_middle_1_L/bip_middle_2_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_middle_0_L/bip_middle_1_L/bip_middle_2_L/bip_middle_2_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_pinky_0_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_pinky_0_L/bip_pinky_1_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_pinky_0_L/bip_pinky_1_L/bip_pinky_2_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_pinky_0_L/bip_pinky_1_L/bip_pinky_2_L/bip_pinky_2_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_ring_0_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_ring_0_L/bip_ring_1_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_ring_0_L/bip_ring_1_L/bip_ring_2_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_ring_0_L/bip_ring_1_L/bip_ring_2_L/bip_ring_2_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_thumb_0_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_thumb_0_L/bip_thumb_1_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_thumb_0_L/bip_thumb_1_L/bip_thumb_2_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/bip_thumb_0_L/bip_thumb_1_L/bip_thumb_2_L/bip_thumb_2_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/weapon_bone_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/weapon_bone_L/weapon_bone_1_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_hand_L/weapon_bone_L/weapon_bone_1_L/weapon_bone_1_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_lowerArm_hlp_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_lowerArm_L/bip_lowerArm_hlp_L/bip_lowerArm_hlp_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_upperArm_hlp_L
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_L/bip_upperArm_L/bip_upperArm_hlp_L/bip_upperArm_hlp_L_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_index_0_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_index_0_R/bip_index_1_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_index_0_R/bip_index_1_R/bip_index_2_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_index_0_R/bip_index_1_R/bip_index_2_R/bip_index_2_R_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_middle_0_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_middle_0_R/bip_middle_1_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_middle_0_R/bip_middle_1_R/bip_middle_2_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_middle_0_R/bip_middle_1_R/bip_middle_2_R/bip_middle_2_R_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_pinky_0_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_pinky_0_R/bip_pinky_1_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_pinky_0_R/bip_pinky_1_R/bip_pinky_2_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_pinky_0_R/bip_pinky_1_R/bip_pinky_2_R/bip_pinky_2_R_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_ring_0_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_ring_0_R/bip_ring_1_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_ring_0_R/bip_ring_1_R/bip_ring_2_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_ring_0_R/bip_ring_1_R/bip_ring_2_R/bip_ring_2_R_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_thumb_0_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_thumb_0_R/bip_thumb_1_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_thumb_0_R/bip_thumb_1_R/bip_thumb_2_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/bip_thumb_0_R/bip_thumb_1_R/bip_thumb_2_R/bip_thumb_2_R_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/weapon_bone
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/weapon_bone/weapon_bone_1
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/weapon_bone/weapon_bone_1/weapon_bone_1_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/weapon_bone/weapon_bone_2
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_hand_R/weapon_bone/weapon_bone_2/weapon_bone_2_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_lowerArm_hlp_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_lowerArm_R/bip_lowerArm_hlp_R/bip_lowerArm_hlp_R_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_upperArm_hlp_R
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_collar_R/bip_upperArm_R/bip_upperArm_hlp_R/bip_upperArm_hlp_R_end
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_neck
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_neck/bip_head
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_neck/bip_head/prp_hat
+    m_Weight: 1
+  - m_Path: saxton_head_tf2_out_skeleton/bip_pelvis/bip_spine_0/bip_spine_1/bip_spine_2/bip_spine_3/bip_neck/bip_head/prp_hat/prp_hat_end
+    m_Weight: 1
