@@ -129,7 +129,7 @@ public abstract class KillableEntity : MonoBehaviourPun, IFreezableEntity, ICust
 
     #region PunRPCs
     [PunRPC]
-    public void SetLeft(bool left) {
+    public virtual void SetLeft(bool left) {
         this.left = left;
         body.velocity = new Vector2(Mathf.Abs(body.velocity.x) * (left ? -1 : 1), body.velocity.y);
     }
