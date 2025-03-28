@@ -1790,7 +1790,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
 
     #region -- DEATH / RESPAWNING --
     [PunRPC]
-    protected void Death(bool deathplane, bool fire) {
+    public void Death(bool deathplane, bool fire) {
         if (dead)
             return;
 

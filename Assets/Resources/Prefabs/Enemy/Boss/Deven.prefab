@@ -973,9 +973,9 @@ MonoBehaviour:
   ourPrefab: Prefabs/Enemy/Boss/Deven
   secondPhasePosL: {x: 9, y: 4}
   secondPhasePosR: {x: -0.5, y: 4}
-  centerStage: -10.75
-  centerStagePhase1: -10.75
-  centerStagePhase2: 4.25
+  centerStage: -15
+  centerStagePhase1: -15
+  centerStagePhase2: 12
   health: 16
   targetPlayer: {fileID: 0}
   jumpDelay: 0

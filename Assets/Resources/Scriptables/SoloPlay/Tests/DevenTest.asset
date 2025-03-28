@@ -52,7 +52,7 @@ MonoBehaviour:
     autoProgress: 0
   - speakerName: Deven
     speakerColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    dialogue: Over (looking up at something all dramatic like)
+    dialogue: Dramatic
     speaker: 0
     speakerImage: {fileID: -1123077157, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
     otherExpression: {fileID: 0}

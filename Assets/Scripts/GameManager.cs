@@ -18,7 +18,7 @@ using Hashtable = ExitGames.Client.Photon.Hashtable;
 
 public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IConnectionCallbacks, IMatchmakingCallbacks {
 
-
+    public bool finalCascade;
     public bool useBossCam = false;
     public Vector2 bossCamOrigin;
     public float bossCamWidth;
@@ -606,13 +606,15 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
 
     public void RUNFORYOURLIFE()
     {
-        timedGameDuration = 60; //35 seconds, 15 seconds, 53 seconds?? PICK ONE
+        timedGameDuration = 60 * 2;
 
         startTimestamp = PhotonNetwork.ServerTimestamp;
 
         endServerTime = startTimestamp + 4500 + timedGameDuration * 1000;
 
         endRealTime = startRealTime + 4500 + timedGameDuration * 1000;
+
+        finalCascade = true;
     }
 
     public void SetBossMusic(bool b)
@@ -813,7 +815,8 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         {
             if(!liquidToRise.gameObject.activeSelf)
             {
-                liquidToRise.gameObject.SetActive(true);
+                if(liquidToRise)
+                    liquidToRise.gameObject.SetActive(true);
             }
             if (liquidToRise != null && liquidToRise.heightTiles < tileWaterHeightMax)
             {
@@ -879,17 +882,22 @@ public class GameManager : MonoBehaviour, IOnEventCallback, IInRoomCallbacks, IC
         }
         //TIMED CHECKS
         if (timeUp) {
+            if (finalCascade)
+            {
+                localPlayer.GetComponent<PlayerController>().photonView.RPC(nameof(PlayerController.Death), RpcTarget.All, false, false);
+                return;
+            }
             Utils.GetCustomProperty(Enums.NetRoomProperties.DrawTime, out bool draw);
             //time up! check who has most stars, if a tie keep playing, if draw is on end game in a draw
 
-            if (localPlayer && localPlayer.GetComponent<PlayerController>() && (localPlayer.GetComponent<PlayerController>().state == Enums.PowerupState.PortalGun || localPlayer.GetComponent<PlayerController>().state == Enums.PowerupState.Glockos))
-            {
-                localPlayer.GetComponent<PlayerController>().photonView.RPC("PlaySound", RpcTarget.All, (!draw ? Enums.Sounds.Glados_Taunt_Win : Enums.Sounds.Glados_Taunt_Lose));
-            }
             if (draw)
             {
                 // it's a draw! Thanks for playing the demo!
                 PhotonNetwork.RaiseEvent((byte)Enums.NetEventIds.EndGame, null, NetworkUtils.EventAll, SendOptions.SendReliable);
+                if (localPlayer && localPlayer.GetComponent<PlayerController>() && (localPlayer.GetComponent<PlayerController>().state == Enums.PowerupState.PortalGun || localPlayer.GetComponent<PlayerController>().state == Enums.PowerupState.Glockos))
+                {
+                    localPlayer.GetComponent<PlayerController>().photonView.RPC("PlaySound", RpcTarget.All, (!draw ? Enums.Sounds.Glados_Taunt_Win : Enums.Sounds.Glados_Taunt_Lose));
+                }
             }
             else
             {

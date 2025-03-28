@@ -917,10 +917,95 @@ MonoBehaviour:
     how much effort it really takes to make something. \n\nThat said, massive thanks
     to the few people who helped playtest this mod before release. \n\nNow, I'm not
     here to waste your time, so if you really want to get back to gameplay, just
-    press Pause. \nBecause the rest of this is just going to be me yapping. \n\n\n\n\nNow
-    a moment of vulnerability.\nAt this point, one week from release as of writing
-    this, the Pez boss fight is barely even begun. School work is getting in the
-    way of making it"
+    press Pause. \n\n\n\nShit this project was hard..... Won't stop me from making
+    another April Fools mod though. \n\n\n\n\nWhat are you still doing here? Press
+    Pause!\n\n\n\n\n\n\nStill here?\nOkay. \n\nFine... I'll tell you things.\n\n\nSaxton
+    Hale was originally planned to be one of the bosses, he was scrapped due to not
+    being fun to fight, and having a terrible stage. \n\nYou can still fight him
+    by enabling Debug Mode in a private lobby. \n\nDebug Mode is something from 1.6
+    that Ipod just commented out, so it was trivial to reimplement. \n\nThough most
+    bosses don't work multiplayer, Eggman did out of the box, and Deven required
+    special attention, but does now. \n\nThere's also an unused powerup, a mostly
+    functional Portal Gun! I couldn't get it fully working in time though, so I slapped
+    Potatos on a glock and called it a day. \n\n\n\n\n\nWant more stuff? Fine. \n\nDid
+    you know, the Glock, Gladock, Iron Sword, and Bat causes the player's eyes to
+    be angry? Very subtle, but there. \n\nUhhh... What now. Oh, I could talk about
+    Character Mod. \n\n\n\n\n\nuhh... Yeah I got nothin'\n\n\n\n\n\nYou can press
+    Pause now. \n\n\n\n\nPlease, this won't end on its own.\n\n\n\n\n\n\nYou still
+    want more content? From the credits? Just press pause and play with friends or
+    something. You unlocked playing as Deven, you can go flex now. \n\n\n\nGAHHH,
+    fine!\nHere's some unused test dialogue, printed by a script. The script doesn't
+    feature the other character's expression, but it's good enough. \n\n\n\nSystemTest\n===
+    Conversation Script ===\n[Mario] (left) (pose: Mario_Confident): Yahoo\n[Urio]
+    (right) (pose: Urio_srsly): Fuck you mean Yahoo?\n[Mario] (left) (pose: Mario_Celebrate):
+    YIPPEEEEEE\n[Urio] (right) (pose: Urio_Confident): What kind of god damn test
+    dialogue is this?\n[Urio] (right) (pose: Urio_Normal): It doesn't make sense!\n[Mario]
+    (left) (pose: Mario_Confident): How-a the hell am I supposed to know?\n[Luigi]
+    (left) (pose: Luigi_Confident): Frankly it's a miracle that this thing works.
+    \n[Mario] (right) (pose: Mario_Stare): Luigi get the fuck out of here\n[Wega]
+    (left) (pose: Wega_Celebrate): Wega\n[Urio] (right) (pose: Urio_Confident): Wega
+    you dumb fuck. \n[Wega] (left) (pose: Wega_Confident): Says you!\n[Mario] (right)
+    (pose: Mario_Confident): Guys! It's Hyper that's stupid! He's-a the one who made
+    us say this stuff?\n[Urio] (left) (pose: Urio_Confident): I hate to admit it,
+    but he's right\n[Luigi] (right) (pose: Luigi_srsly): What the hell is going on-\n[Mario]
+    (left) (pose: Mario_Stare): NOTHING, LUIGI!\n[Urio] (right) (pose: Urio_srsly):
+    Is this seriously the humor Hyper's going for in this mode?\n[Mario] (left) (pose:
+    Mario_srsly): God dammit I hope not. \n\nDevenDitto\n=== Conversation Script
+    ===\n[Deven] (right) (pose: Deven_Normal): Hello. I am Deven, mascot of NSMBVS
+    HyperCat's Character Mod. \n[Deven] (right) (pose: Deven_Confident): You. Have
+    wronged me.\n[Mario] (left) (pose: Mario_Shrug): What? I don't even know who
+    you are?\n[Deven] (right) (pose: Deven_Confident): Don't lie. \n[Deven] (right)
+    (pose: Deven_Dramatic): I'm tired of being treated like a tool. \n[Deven] (right)
+    (pose: Deven_Dramatic): Something you use to improve, and quickly forget about.
+    \n[Mario] (left) (pose: Mario_Confident): I have no idea who you are!!!\n[Deven]
+    (right) (pose: Deven_Confident): Lies!\n\nDevenDialogueTest\n=== Conversation
+    Script ===\n[Deven] (left) (pose: Deven_Normal): Hello. I am Deven, mascot of
+    NSMBVS HyperCat's Character Mod. \n[Deven] (left) (pose: Deven_Normal): I was
+    originally designed by Professor E. Gadd as a racing opponent for Mario. \n[Deven]
+    (left) (pose: Deven_Confident): Unfortunately, to get this mod out on time, my
+    mod was paused... For a whole month. \n[Deven] (left) (pose: Deven_Dramatic):
+    It's high time this injustice gets solved. \n[Deven] (left) (pose: Deven_Powertrip):
+    If my mod can't exist. NOTHING CAN!\n[Deven] (left) (pose: Deven_Powertrip):
+    With the involuntary help of the professor, the whole multiverse can be in my
+    control!\n[Deven] (left) (pose: Deven_Dramatic): And I'm done being a training
+    bot!\n[Deven] (left) (pose: Deven_Dramatic): Being relantlessly beat up for the
+    sake of making these stupid organics better. \n[Deven] (left) (pose: Deven_Dramatic):
+    Making these organics better at beating me up. \n\nDevenTest\n=== Conversation
+    Script ===\n[Deven] (left) (pose: Deven_Normal): Hello. This is a test for Deven's
+    expressions. \n[Deven] (left) (pose: Deven_Normal): Normal\n[Deven] (left) (pose:
+    Deven_Confident): Confident\n[Deven] (left) (pose: Deven_Celebrate): Celebrate\n[Deven]
+    (left) (pose: Deven_Powertrip): Powertrip\n[Deven] (left) (pose: Deven_Dramatic):
+    Dramatic\n\nNoDialogue\n=== Conversation Script ===\n[Nobody] (left) (pose: Mario_Confident): 
+    \n\n\n\nThere, you happy?\n\nI have nothing left to show you... Fine, there's
+    also unused dialogue for the worldmap when you were to beat Saxton. \n\n=== Conversation
+    Script ===\n[Mario] (left) (pose: Mario_Normal): Just beat up a big buff australian
+    man, feeling good. \n[Urio] (right) (pose: Urio_Normal): You not know who he
+    was?\n[Mario] (left) (pose: Mario_Shrug): Nope\n[Urio] (right) (pose: Urio_Celebrate):
+    That was Saxton Hale!\n[Urio] (right) (pose: Urio_Confident): He once took down
+    9 mercenaries at once.\n[Urio] (right) (pose: Urio_Celebrate): And you, by yourself,
+    took him down. \n[Mario] (left) (pose: Mario_Celebrate): Hell yeah! \n[Mario]
+    (left) (pose: Mario_Celebrate): I'm just that cool. \n\n=== Conversation Script
+    ===\n[Mario] (right) (pose: Mario_Celebrate): Holy crap you just beat up that
+    buff australian man!\n[Urio] (left) (pose: Urio_Celebrate): That wasn't just
+    any australian man.\n[Urio] (left) (pose: Urio_Celebrate): That was Saxton Hale!\n[Mario]
+    (right) (pose: Mario_Shrug): Who dat?\n[Urio] (left) (pose: Urio_Celebrate):
+    They guy who simultaneously fought 9 different mercenaries and won!\n[Urio] (left)
+    (pose: Urio_Celebrate): And I alone was able to take him down!\n[Mario] (right)
+    (pose: Mario_Confident): And how exactly do you know this guy?\n[Urio] (left)
+    (pose: Urio_Shrug): That's a long story for later. \nFor now, I've still gotta
+    find my brother. \n\n=== Conversation Script ===\n[Luigi] (left) (pose: Luigi_Celebrate):
+    Holy crap that was Saxton Hale!\n[Luigi] (left) (pose: Luigi_Confident): Not
+    just that, I beat him!\n[Luigi] (left) (pose: Luigi_Celebrate): I got in a fight
+    with Saxton freaking Hale, and won!!!\n[Wega] (right) (pose: Wega_Celebrate):
+    Wega proud of green guy!\n[Luigi] (right) (pose: Luigi_Normal): Thank you, Thank
+    you. \n\n=== Conversation Script ===\n[Wega] (left) (pose: Wega_Normal): Who
+    was buff man?\n[Luigi] (right) (pose: Luigi_Normal): That was Saxton Hale!\n[Luigi]
+    (right) (pose: Luigi_Celebrate): You just beat THE Saxton Hale!\n[Wega] (left)
+    (pose: Wega_Celebrate): Wega strong!\n[Luigi] (right) (pose: Luigi_Normal): Correct.
+    Wega is strong. \n\n\nAnd finally, that's it. I literally can't find anything
+    else to put here. No more unused dialogue, no fun facts. Nothing.\n\nThis is
+    the end of the text now, you can press start now.\nI'm serious this time. Goodbye
+    :wave:"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d42c556520644b148ada62f0b573e1a5, type: 2}
   m_sharedMaterial: {fileID: 6015020410494396785, guid: d42c556520644b148ada62f0b573e1a5,
