@@ -129,6 +129,7 @@ public class PezoliBoss : KillableEntity
 
         // My attempt to follow the notes a bit better. 
         // May or may not be AI generated :shrug: Good luck disecting this mess. 
+        // Don't blame me, I was in a rush. 
         //if (timeSinceAttackChange > 0.75f && !Flipping)
         //{
         //    bool FlipTo = left;
