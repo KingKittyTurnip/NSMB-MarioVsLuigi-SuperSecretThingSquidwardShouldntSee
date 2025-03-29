@@ -137,8 +137,8 @@ public class FrozenCube : HoldableEntity {
 
         body.velocity = new Vector2(throwSpeed * (left ? -1 : 1), body.velocity.y);
 
-        if (autoBreakTimer > 0 && ((entity is PlayerController || entity is SaxtonHale || entity is FakeMario) || (!holder && !fastSlide))) {
-            if(entity is FakeMario)
+        if (autoBreakTimer > 0 && ((entity is PlayerController || entity is SaxtonHale || entity is FakeMario || entity is DevenTheBossFight || entity is PezoliBoss) || (!holder && !fastSlide))) {
+            if(entity is FakeMario || entity is DevenTheBossFight || entity is PezoliBoss)
             {
                 Utils.TickTimer(ref autoBreakTimer, 0, Time.fixedDeltaTime * 15);
             }

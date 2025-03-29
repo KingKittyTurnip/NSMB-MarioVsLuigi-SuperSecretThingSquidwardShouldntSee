@@ -11,7 +11,10 @@ public class EggmansBalls : MonoBehaviour
         if (collision.GetComponent<PlayerController>())
         {
             GetComponent<PlayerController>().photonView.RPC(nameof(PlayerController.Powerdown), RpcTarget.All, false);
-            eggman.OnDealDamage();
+            if(eggman != null)
+            {
+                eggman.OnDealDamage();
+            }
         }
     }
 }

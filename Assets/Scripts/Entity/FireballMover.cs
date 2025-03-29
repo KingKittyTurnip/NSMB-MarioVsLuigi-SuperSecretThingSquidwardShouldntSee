@@ -89,6 +89,9 @@ public class FireballMover : MonoBehaviourPun {
             }
             break;
         }
+        case "unfreezable": {
+                    return;
+        }
         case "frozencube": {
             FrozenCube fc = collider.gameObject.GetComponentInParent<FrozenCube>();
             if (fc.dead)

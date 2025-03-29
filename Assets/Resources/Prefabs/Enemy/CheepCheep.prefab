@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 3979950990106164848}
   - component: {fileID: 7392046083200321213}
   - component: {fileID: 1344923674317619887}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: CheepCheep
   m_TagString: goomba
   m_Icon: {fileID: 0}
@@ -139,14 +139,14 @@ MonoBehaviour:
   left: 1
   collide: 1
   iceCarryable: 1
-  flying: 0
+  flying: 1
   body: {fileID: 1578214378532044746}
   hitbox: {fileID: 0}
   underwater: 0
   speed: 1
   terminalVelocity: -8
-  boundsL: -13.5
-  boundsR: -8
+  boundsL: -5.5
+  boundsR: 0
 --- !u!212 &3558248298073958722
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -241,7 +241,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 4096
+    m_Bits: 5120
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

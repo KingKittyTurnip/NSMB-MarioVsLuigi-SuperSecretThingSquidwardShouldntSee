@@ -60,6 +60,13 @@ public class CheepCheep : KillableEntity
             underwater = true;
         }
     }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.gameObject.GetComponent<WaterSplash>() != null)
+        {
+            underwater = false;
+        }
+    }
 
     private void OnDrawGizmos()
     {

@@ -32,6 +32,7 @@ TagManager:
   - lava
   - MarioBrosPlatform
   - frozencube
+  - unfreezable
   layers:
   - Default
   - TransparentFX
