@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea796f302b1a91d478efc94e21899d8d, type: 3}
   m_Name: Goggles
   m_EditorClassIdentifier: 
-  state: 14
+  state: 13
   prefab: Goggles
   soundEffect: 16
   spawnChance: 0
