@@ -9,6 +9,8 @@ public class BulletBillLauncher : MonoBehaviourPun {
     public float initialShootTimer = 5;
     private float shootTimer;
     private readonly List<GameObject> bills = new();
+    public int MAX = 3;
+    public string Object = "Prefabs/Enemy/BulletBill";
 
     private Vector2 searchBox, closeSearchBox = new(1.5f, 1f), searchOffset, spawnOffset = new(0.25f, -0.2f);
 
@@ -33,7 +35,7 @@ public class BulletBillLauncher : MonoBehaviourPun {
             if (bills[i] == null)
                 bills.RemoveAt(i--);
         }
-        if (bills.Count >= 3)
+        if (bills.Count >= MAX)
             return;
 
         //Check for players close by
@@ -42,14 +44,14 @@ public class BulletBillLauncher : MonoBehaviourPun {
 
         //Shoot left
         if (IntersectsPlayer((Vector2) transform.position - searchOffset, searchBox)) {
-            GameObject newBill = PhotonNetwork.InstantiateRoomObject("Prefabs/Enemy/BulletBill", transform.position + new Vector3(-spawnOffset.x, spawnOffset.y), Quaternion.identity, 0, new object[]{ true });
+            GameObject newBill = PhotonNetwork.InstantiateRoomObject(Object, transform.position + new Vector3(-spawnOffset.x, spawnOffset.y), Quaternion.identity, 0, new object[]{ true });
             bills.Add(newBill);
             return;
         }
 
         //Shoot right
         if (IntersectsPlayer((Vector2) transform.position + searchOffset, searchBox)) {
-            GameObject newBill = PhotonNetwork.InstantiateRoomObject("Prefabs/Enemy/BulletBill", transform.position + new Vector3(spawnOffset.x, spawnOffset.y), Quaternion.identity, 0, new object[]{ false });
+            GameObject newBill = PhotonNetwork.InstantiateRoomObject(Object, transform.position + new Vector3(spawnOffset.x, spawnOffset.y), Quaternion.identity, 0, new object[]{ false });
             bills.Add(newBill);
             return;
         }
