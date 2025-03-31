@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 13
   prefab: Goggles
-  soundEffect: 16
+  soundEffect: 9
   spawnChance: 0
   losingSpawnBonus: 0
   big: 0

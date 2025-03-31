@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: PezMario
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: Luigi!
+    speaker: 0
+    speakerImage: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 325339277, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0
+  - speakerName: Pez
+    speakerColor: {r: 0, g: 0, b: 1, a: 1}
+    dialogue: Nope
+    speaker: 1
+    speakerImage: {fileID: -1081235559, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Pez
+    speakerColor: {r: 0, g: 0, b: 1, a: 1}
+    dialogue: Pez
+    speaker: 1
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: Like the candy?
+    speaker: 0
+    speakerImage: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 1446322269, guid: 933ec60777c4c574bb3ded23a7117649,
+      type: 3}
+    autoProgress: 0
+  - speakerName: Pez
+    speakerColor: {r: 0, g: 0, b: 1, a: 1}
+    dialogue: No....
+    speaker: 1
+    speakerImage: {fileID: -1081235559, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: Wait, why are we in an arena?
+    speaker: 0
+    speakerImage: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Pez
+    speakerColor: {r: 0, g: 0, b: 1, a: 1}
+    dialogue: 'Because I''m gonna beat you up. '
+    speaker: 1
+    speakerImage: {fileID: 1600461782, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Mario
+    speakerColor: {r: 1, g: 0, b: 0, a: 1}
+    dialogue: Oh... Well Honesty is the best policy
+    speaker: 0
+    speakerImage: {fileID: 307322972, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0

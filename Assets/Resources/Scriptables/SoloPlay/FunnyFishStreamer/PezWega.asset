@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b1830da395779488065e3bcc4bf1ed, type: 3}
+  m_Name: PezWega
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speakerName: Wega
+    speakerColor: {r: 1, g: 0, b: 1, a: 1}
+    dialogue: You look like green guy!
+    speaker: 0
+    speakerImage: {fileID: 956301800, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 325339277, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    autoProgress: 0
+  - speakerName: Pez
+    speakerColor: {r: 0, g: 0, b: 1, a: 1}
+    dialogue: I've been told that
+    speaker: 1
+    speakerImage: {fileID: 1446322269, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Pez
+    speakerColor: {r: 0, g: 0, b: 1, a: 1}
+    dialogue: 'Well, not exactly. But I know who you''re referring to. '
+    speaker: 1
+    speakerImage: {fileID: -1081235559, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Pez
+    speakerColor: {r: 0, g: 0, b: 1, a: 1}
+    dialogue: 'btw, I''m gonna beat you up for content now. '
+    speaker: 1
+    speakerImage: {fileID: -11514741, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0
+  - speakerName: Wega
+    speakerColor: {r: 1, g: 0, b: 1, a: 1}
+    dialogue: Okay!
+    speaker: 0
+    speakerImage: {fileID: 1950137220, guid: 933ec60777c4c574bb3ded23a7117649, type: 3}
+    otherExpression: {fileID: 0}
+    autoProgress: 0

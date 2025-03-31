@@ -976,7 +976,7 @@ public class PlayerController : MonoBehaviourPun, IFreezableEntity, ICustomSeria
     }
 
     private void ActivatePowerupAction() {
-        if (knockback || pipeEntering || GameManager.Instance.gameover || dead || Frozen || holding || !GameManager.Instance.allowRuning || (FindObjectOfType<PezoliBoss>()))
+        if (knockback || pipeEntering || GameManager.Instance.gameover || dead || Frozen || holding || !GameManager.Instance.allowRuning || (FindObjectOfType<PezoliBoss>() && state == Enums.PowerupState.IceFlower))
             return;
 
         switch (state) {

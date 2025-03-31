@@ -8,14 +8,17 @@ using System.Configuration;
 
 public class PezoliBoss : KillableEntity
 {
-    public AudioSource introVoc, fishMp3;
+    public GameObject goalPrefab;
+    public Vector2 goalSpawnPos;
+    public AudioSource introVoc, fishMp3, angryVoc;
     public Vector2 centerStage;
     public int HP = 8;
     public PezoliBossAttackPhase attackPhase = PezoliBossAttackPhase.Intro;
     public float attackTimer, timeSinceAttackChange;
     public SpriteRenderer fish;
+    bool turboPhase;
 
-    public Vector2 swimControl_Joystick;
+    //public Vector2 swimControl_Joystick; //unused
 
     public Transform Model;
 
@@ -32,9 +35,11 @@ public class PezoliBoss : KillableEntity
         Stationary,
         SwapSides,
         Fish,
-        Flooded,
+        //Flooded,
         WaterGeyser,
         //BouncyFish, scrapped
+        Owie,
+        AnimationTimer,
     }
     public override void FixedUpdate()
     {
@@ -56,14 +61,24 @@ public class PezoliBoss : KillableEntity
                     AttackPhaseFish();
                     break;
                 }
-            case PezoliBossAttackPhase.Flooded:
-                {
-                    AttackPhaseFlooded();
-                    break;
-                }
+            //case PezoliBossAttackPhase.Flooded:
+            //    {
+            //        AttackPhaseFlooded();
+            //        break;
+            //    }
             case PezoliBossAttackPhase.WaterGeyser:
                 {
                     AttackPhaseWaterGeyser();
+                    break;
+                }
+            case PezoliBossAttackPhase.Owie:
+                {
+                    AttackPhaseOwie();
+                    break;
+                }
+            case PezoliBossAttackPhase.AnimationTimer:
+                {
+                    AttackPhaseAnimationTimer();
                     break;
                 }
         }
@@ -75,6 +90,23 @@ public class PezoliBoss : KillableEntity
         if (attackTimer < 0)
         {
             attackTimer = 0;
+        }
+        if (turboPhase && attackPhase != PezoliBossAttackPhase.WaterGeyser)
+        {
+            animator.speed = 2;
+            timeSinceAttackChange += Time.fixedDeltaTime;
+            if (attackTimer > 0)
+            {
+                attackTimer -= Time.fixedDeltaTime;
+            }
+            if (attackTimer < 0)
+            {
+                attackTimer = 0;
+            }
+        }
+        else
+        {
+            animator.speed = 1;
         }
     }
 
@@ -93,43 +125,132 @@ public class PezoliBoss : KillableEntity
         playerPosition = GetPlayerAveragePosition();
     }
 
+    private int lastAttackAction = -1; // To store the last attack action picked
+
     public void AttackPhaseStationary() //FIN. stay still for a bit, then pick a random attack action to transition to. 
     {
         if (attackTimer <= 0)
         {
-            photonView.RPC(nameof(SetAttack), RpcTarget.All, Random.Range(Flipping ? 3 : 2, 6), 1f);
+            // Generate a random attack action, but avoid the last one picked
+            int attackAction;
+            do
+            {
+                attackAction = Random.Range(Flipping ? 3 : 2, 5); // Generate a random action
+            }
+            while (attackAction == lastAttackAction); // Make sure it is not the same as the last one
+
+            photonView.RPC(nameof(SetAttack), RpcTarget.All, attackAction, 1f);
+
+            lastAttackAction = attackAction; // Store the last picked attack action
             Flipping = false;
         }
     }
     public void AttackPhaseSwapSides() //moves down to a set Y position, and then goes to the opposite side of the stage. using centerStage as a reference point.
     {
-        //Turnip's code
-        if (timeSinceAttackChange > 0.75f)
+        //My code
+        float moveSpeed = turboPhase ? 5 : 3;
+        body.velocity = new Vector2(0, 0);
+        if (left)
         {
-            if (!Flipping)
-            { //Flip Side Depending On Facing Direction, But Can Fake Out When Under Half Health
-                bool FlipTo = HP > 4 ? left : RandomBool;
-                body.position = new Vector2((FlipTo ? -4.5f : 4.5f) + centerStage.x, centerStage.y + 8);
-                photonView.RPC(nameof(SetLeft), RpcTarget.All, body.position.x > centerStage.x);
-                Flipping = true;
+            if (transform.position.x > centerStage.x)
+            {
+                if (body.position.y > centerStage.y - 3)
+                {
+                    transform.position += Vector3.down * Time.fixedDeltaTime * moveSpeed;
+                }
+                else
+                {
+                    animator.SetBool("Swimming", true);
+                    transform.position += Vector3.left * Time.fixedDeltaTime * moveSpeed;
+                }
             }
-            body.velocity = new Vector2(0, -10); //Zoom Downwards
+            else
+            {
+                if (body.position.x < centerStage.x - 4)
+                {
+                    if (body.position.y < centerStage.y)
+                    {
+                        transform.position += Vector3.up * Time.fixedDeltaTime * moveSpeed;
+                        animator.SetBool("Swimming", false);
+                    }
+                    else
+                    {
+                        photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.Stationary, 2f);
+                        transform.position = new Vector3(centerStage.x - 4, centerStage.y);
+                    }
+                }
+                else
+                {
+                    transform.position += Vector3.left * Time.fixedDeltaTime * moveSpeed;
+                }
+            }
         }
         else
         {
-            body.velocity = new Vector2(0, 10); //Zoom Upwards
+            if (transform.position.x < centerStage.x)
+            {
+                if (body.position.y > centerStage.y - 3)
+                {
+                    transform.position += Vector3.down * Time.fixedDeltaTime * moveSpeed;
+                }
+                else
+                {
+                    animator.SetBool("Swimming", true);
+                    transform.position += Vector3.right * Time.fixedDeltaTime * moveSpeed;
+                }
+            }
+            else
+            {
+                if (body.position.x >= centerStage.x + 4)
+                {
+                    if (body.position.y < centerStage.y)
+                    {
+                        animator.SetBool("Swimming", false);
+                        transform.position += Vector3.up * Time.fixedDeltaTime * moveSpeed;
+                    }
+                    else
+                    {
+                        photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.Stationary, 2f);
+                        transform.position = new Vector3(centerStage.x + 4, centerStage.y);
+                    }
+                }
+                else
+                {
+                    transform.position += Vector3.right * Time.fixedDeltaTime * moveSpeed;
+                }
+            }
         }
-        if (timeSinceAttackChange > 1.5f && body.position.y <= centerStage.y)
-        { //Reset
-            //animator.SetBool("Swim", true);
-            body.velocity = new Vector2(0, 0);
-            photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.Stationary, 2f);
-        }
+
+
+        ////Turnip's code
+        //if (timeSinceAttackChange > 0.75f)
+        //{
+        //    if (!Flipping)
+        //    { //Flip Side Depending On Facing Direction, But Can Fake Out When Under Half Health
+        //        bool FlipTo = HP > 4 ? left : RandomBool;
+        //        body.position = new Vector2((FlipTo ? -4.5f : 4.5f) + centerStage.x, centerStage.y + 8);
+        //        photonView.RPC(nameof(SetLeft), RpcTarget.All, body.position.x > centerStage.x);
+        //        Flipping = true;
+        //    }
+        //    body.velocity = new Vector2(0, -10); //Zoom Downwards
+        //}
+        //else
+        //{
+        //    body.velocity = new Vector2(0, 10); //Zoom Upwards
+        //}
+        //if (timeSinceAttackChange > 1.5f && body.position.y <= centerStage.y)
+        //{ //Reset
+        //    //animator.SetBool("Swim", true);
+        //    body.velocity = new Vector2(0, 0);
+        //    photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.Stationary, 2f);
+        //}
 
 
         // My attempt to follow the notes a bit better. 
         // May or may not be AI generated :shrug: Good luck disecting this mess. 
         // Don't blame me, I was in a rush. 
+
+        //It has 2 problems. it moves too fast, and always moves left. 
         //if (timeSinceAttackChange > 0.75f && !Flipping)
         //{
         //    bool FlipTo = left;
@@ -197,10 +318,10 @@ public class PezoliBoss : KillableEntity
             fish.flipX = !left;
         }
     }
-    public void AttackPhaseFlooded()
-    { //while staying still, raise the water level of the stage. After the water is risen, Pez can swim after the player, and do a melee phase. Lasts 15 seconds as to not risk the player drowning. 
-        photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.Stationary, 0f);
-    }
+    //public void AttackPhaseFlooded()
+    //{ //while staying still, raise the water level of the stage. After the water is risen, Pez can swim after the player, and do a melee phase. Lasts 15 seconds as to not risk the player drowning. 
+    //    photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.Stationary, 0f);
+    //}
     public void AttackPhaseWaterGeyser()
     { //FIN. The water below one of the 2 platforms the player is standing on starts to bubble, then a water geyser spouts, damaging the player if hit. 
         if (timeSinceAttackChange < .5f)
@@ -230,6 +351,32 @@ public class PezoliBoss : KillableEntity
             }
         }
     }
+    public void AttackPhaseOwie()
+    {
+        transform.position += new Vector3(attackTimer * (left ? 1 : -1) * 2 * Time.fixedDeltaTime, 0, 0);
+        if(attackTimer <= 0)
+        {
+            photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.SwapSides, 1f);
+            left = transform.position.x < centerStage.x;
+            if(HP == 4)
+            {
+                angryVoc.Play();
+                animator.SetBool("Swimming", false);
+                animator.SetTrigger("Anger");
+                animator.Play("Rage");
+                photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.AnimationTimer, 1.667f); //synced with animation
+            }
+        }
+    }
+    public void AttackPhaseAnimationTimer()
+    {
+        if(attackTimer <= 0)
+        {
+            photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.SwapSides, 1f);
+            left = transform.position.x < centerStage.x;
+            turboPhase = true;
+        }
+    }
 
 
     [PunRPC]
@@ -253,6 +400,19 @@ public class PezoliBoss : KillableEntity
     public override void Kill()
     {
 
+    }
+    [PunRPC]
+    public void Damage(int playerViewID)
+    {
+        PlayerController con = PhotonView.Find(playerViewID).GetComponent<PlayerController>();
+        con.body.velocity = Vector2.up * 8;
+        animator.SetTrigger("Hit");
+        photonView.RPC(nameof(SetAttack), RpcTarget.All, (int)PezoliBossAttackPhase.Owie, 1.667f); //synced with animation
+        HP--;
+        if(HP <= 0)
+        {
+            PhotonNetwork.Destroy(gameObject);
+        }
     }
 
     public void StartFight()
@@ -339,5 +499,53 @@ public class PezoliBoss : KillableEntity
             body.angularVelocity = 0;
             body.isKinematic = true;
         }
+    }
+    public override void InteractWithPlayer(PlayerController player)
+    {
+        if (player.Frozen)
+            return;
+
+        Vector2 damageDirection = (player.body.position - body.position).normalized;
+        bool attackedFromAbove = Vector2.Dot(damageDirection, Vector2.up) > 0.5f && !player.onGround && attackPhase == PezoliBossAttackPhase.SwapSides;
+
+        if (player.invincible > 0 || player.inShell || player.sliding
+            || (player.groundpound && player.state != Enums.PowerupState.MiniMushroom && attackedFromAbove)
+            || player.state == Enums.PowerupState.MegaMushroom)
+        {
+
+            photonView.RPC(nameof(Damage), RpcTarget.All, player.photonView.ViewID);
+        }
+        else if (attackedFromAbove)
+        {
+            if (player.state == Enums.PowerupState.MiniMushroom)
+            {
+                if (player.groundpound)
+                {
+                    player.groundpound = false;
+                    photonView.RPC(nameof(Damage), RpcTarget.All, player.photonView.ViewID);
+                }
+            }
+            else
+            {
+                photonView.RPC(nameof(Damage), RpcTarget.All, player.photonView.ViewID);
+            }
+            player.photonView.RPC(nameof(PlaySound), RpcTarget.All, Enums.Sounds.Enemy_Generic_Stomp);
+            player.drill = false;
+
+        }
+        else if (player.hitInvincibilityCounter <= 0)
+        {
+            player.photonView.RPC(nameof(PlayerController.Powerdown), RpcTarget.All, false);
+        }
+    }
+    private void OnDestroy()
+    {
+        Instantiate(goalPrefab, goalSpawnPos, Quaternion.identity);
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawWireSphere(centerStage, .5f);
+        Gizmos.DrawWireSphere(goalSpawnPos, .5f);
     }
 }
